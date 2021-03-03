@@ -1,0 +1,63 @@
+
+
+.nav1 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.udemy {
+    color: gray;
+}
+
+  .nav1 li a {
+    text-decoration: none;
+  }
+
+  #search {
+    width: 40rem;
+    }
+
+.nav2 {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav2 li a {
+    text-decoration: none;
+}
+
+
+.menu3 {
+    margin-left: 10rem;
+}
+
+
+
+.card-container { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  .card-container li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card-image{
+    cursor: pointer;
+}
+
+.card-image:hover span{
+    display: block;
+}
+span{
+    display: none;
+    border: 5px solid #DFDFDF;
+    width: 10rem;
+    letter-spacing: 1px;
+    color: #717171;
+}
