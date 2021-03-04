@@ -1,38 +1,85 @@
+body {
+    color: #717171;
+}
 
+nav{
+    display: block;
+    text-align: center;
+}
 
 .nav1 {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+#search {
+    height: 30px;
+    border-radius: 50px;
+    margin-bottom: 10px;
 }
 
 .udemy {
-    color: gray;
+    color: rgb(100, 100, 100);
 }
 
-  .nav1 li a {
+.nav1 li a {
     text-decoration: none;
+    color: #717171;
   }
 
-  #search {
+#search {
     width: 40rem;
+    text-align: center;
+    color: rgb(187, 187, 187);
     }
 
 .nav2 {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    text-align: center;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    width: 100%;
+    height: auto;
 }
 
+.menu2 {
+    background-image: url(frontpage.jpg);
+    height: 25rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    width:400px;
+    height: 157.2px;
+    margin: 60px 50px;
+}
+
+.text h1{
+    margin: 1px solid black;
+}
+
+.nav2 li {
+    margin-bottom: 20px;
+    width: auto;
+}
 .nav2 li a {
     text-decoration: none;
+    color: #717171;
 }
 
 
-.menu3 {
-    margin-left: 10rem;
-}
 
+
+.text h2 {
+    border: 1px solid black;
+}
 
 
 .card-container { 
@@ -54,6 +101,7 @@
 .card-image:hover span{
     display: block;
 }
+
 span{
     display: none;
     border: 5px solid #DFDFDF;
